@@ -8,6 +8,7 @@ import LearnReactRoutes from "./components/LearnReactRoutes/LearnReactRoutes";
 import ReactRoute1 from "./components/BasicReactRoutes/ReactRoute1";
 import ReactRoute2 from "./components/PassDataInURL/ReactRoute2";
 import ReactRoute3 from "./components/RouteDoesNotExist/ReactRoute3";
+import ReactRoute4 from "./components/MultipleComponentsUnderRoute/ReactRoute4";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/BasicReactRoutes" component={ReactRoute1} />
           <Route path="/PassDataInURL" component={ReactRoute2} />
           <Route path="/ReactRoute3" component={ReactRoute3} />
+          <Route path="/ReactRoute4" component={ReactRoute4} />
         </Switch>
       </div>
     </BrowserRouter>

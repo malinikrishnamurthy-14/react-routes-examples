@@ -25,6 +25,11 @@ class LeftMenu extends React.Component {
                 Show Page Not Found when Route Does not Exist
               </Link>
             </li>
+            <li className="list-item">
+              <Link className="link" to="/ReactRoute4">
+                Multiple components under one route
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
