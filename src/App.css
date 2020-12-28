@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-flow: row;
+}
+
+.left-container {
+  display: flex;
+  flex-flow: column;
+  width: 25%;
+  /* border-right: 1px solid rgb(206, 204, 204); */
+  box-shadow: 0 2px 1px 0;
+  background-color: aliceblue;
+  padding: 225px 0;
+}
+
+.right-container {
+  margin: 50px;
+  border: 1px solid cadetblue;
+  box-shadow: 0 2px 2px 0;
+  width: 75%;
+}
+
+.list-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+.link {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+.reactroute1-link {
+  text-decoration: none;
+  /* background-color: black; */
+  color: black;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 15px;
+}
+
+.reactroute1-link:hover {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right-container {
+  display: flex;
+  flex-flow: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation-bar {
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid cadetblue;
+  box-shadow: 0 2px 2px 0;
+}
+
+.products-list-heading-container {
+  border-bottom: 1px solid rgb(136, 154, 155);
+  box-shadow: 0 2px 2px 0;
+}
+
+.products-list-heading {
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+}
+
+.page-content {
+  padding: 15px;
+}
+
+.landing-text {
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.landing-para {
+  width: 50%;
+  color: cadetblue;
+}
+
+.heading {
+  font-size: x-large;
+  font-weight: 750;
+  padding-left: 40px;
+  color: rebeccapurple;
+}
+
+.product-list-item-link {
+  text-decoration: none;
+  padding: 10px;
+  color: cadetblue;
+}
+
+.product-list-item {
+  padding: 10px;
+}
+
+.products-list-page-heading {
+  color: black;
+  padding: 10px;
+  border: 1px solid cadetblue;
+}
+
+.not-found{
+  padding: 10px;
 }
