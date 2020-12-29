@@ -6,7 +6,9 @@ class LeftMenu extends React.Component {
     return (
       <div className="left-container">
         <div className="heading-container">
-          <p className="heading"><Link to="/">Learn React Routes</Link></p>
+          <p className="heading">
+            <Link to="/">Learn React Routes</Link>
+          </p>
         </div>
         <div>
           <ul type="none">
@@ -29,6 +31,9 @@ class LeftMenu extends React.Component {
               <Link className="link" to="/ReactRoute4">
                 Multiple components under one route
               </Link>
+            </li>
+            <li className="list-item">
+              <Link className="link" to="/ReactRoute5">Nesting of Routes</Link>
             </li>
           </ul>
         </div>

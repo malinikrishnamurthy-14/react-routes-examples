@@ -10,7 +10,7 @@
   /* border-right: 1px solid rgb(206, 204, 204); */
   box-shadow: 0 2px 1px 0;
   background-color: aliceblue;
-  padding: 200px 0;
+  padding: 180px 0;
 }
 
 .right-container {
@@ -110,4 +110,13 @@
 
 .not-found{
   padding: 10px;
+}
+
+.table{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.table-container{ 
+  padding: 25px;
 }

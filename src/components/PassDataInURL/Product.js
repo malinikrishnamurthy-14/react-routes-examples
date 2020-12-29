@@ -10,7 +10,7 @@ const Product = ({ match }) => {
   return (
     <div>
       <div className="landing-text">
-        <h1 className="landing-para">{productinfo.name}</h1>
+        <h1 className="landing-para">{`Product: ${productinfo.name}`}</h1>
         <p className="landing-para">{productinfo.description}</p>
       </div>
     </div>
